@@ -15,6 +15,17 @@
             <HBox prefHeight="60.0" prefWidth="150.0">
                <children>
                   <ChoiceBox prefHeight="50.0" prefWidth="150.0">
+                     <!-- <items>
+                         <String fx:value="Baby" />
+                         <FXCollections fx:factory="Level">
+                            <String fx:value="Baby" />
+                            <String fx:value="Unschwer" />
+                            <String fx:value="Reell" />
+                            <String fx:value="Gemein" />
+                            <String fx:value="EInsame Spitze" />
+                            <String fx:value="Rational" />
+                         </FXCollections>
+                     </items>-->
                      <HBox.margin>
                         <Insets left="15.0" />
                      </HBox.margin>
