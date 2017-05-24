@@ -7,5 +7,6 @@ public enum Operation {
     MAL,
     DURCH,
     HOCH,
-    WURZEL
+    WURZEL,
+    ISTGLEICH
 }
