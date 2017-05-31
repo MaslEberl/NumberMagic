@@ -7,5 +7,7 @@ public class MainRechnungenTests {
 
     public static void main(String[] args) {
         // Hier kommen die Tests für die Methoden und Klassen zum Rechnungen erzeugen.
+
+
     }
 }
