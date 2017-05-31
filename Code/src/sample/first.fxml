@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="750.0" style="-fx-background-image: url('C:/Users/Documents/page_background.gif'); -fx-background-color: #d3f98e;">
+         <children>
+            <Button layoutX="455.0" layoutY="255.0" mnemonicParsing="false" text="Los gehts!" />
+            <Label layoutX="253.0" layoutY="258.0" text="Spieler:">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="301.0" layoutY="255.0" />
+            <Text layoutX="7.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© NumberMagic Team">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="185.0" fitWidth="191.0" layoutX="283.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Bilder/LOGO.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
