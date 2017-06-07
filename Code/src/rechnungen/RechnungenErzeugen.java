@@ -21,5 +21,23 @@ public class RechnungenErzeugen {
     *
     * */
 
-    
+    /* Der Modus ist eine Member-Variable,
+    * Somit muss für jede Runde eine Instanz dieser Klasse erzeugt werden. */
+    private Modus modus;
+    private Terme terme;
+
+    public RechnungenErzeugen(Modus modus) {
+        this.modus = modus;
+    }
+
+    public Terme erzeuge()
+    {
+
+    }
+
+    /** @return Gibt null zurück, wenn es fehlschlägt. */
+    private Term erzeugeTerm(int position)
+    {
+
+    }
 }
